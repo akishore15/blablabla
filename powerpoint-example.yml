@@ -1,0 +1,32 @@
+presentation:
+  title: "My YAML Presentation"
+  slides:
+    - title: "Welcome Slide"
+      content:
+        - type: "text"
+          value: "Welcome to the Presentation"
+        - type: "bullet_points"
+          points:
+            - "Introduction"
+            - "Agenda"
+            - "Goals"
+    - title: "Introduction"
+      content:
+        - type: "text"
+          value: "This slide introduces the main topics."
+        - type: "image"
+          src: "intro_image.png"
+        - type: "bullet_points"
+          points:
+            - "Topic 1: Overview"
+            - "Topic 2: Details"
+            - "Topic 3: Summary"
+    - title: "Conclusion"
+      content:
+        - type: "text"
+          value: "Thank you for attending!"
+        - type: "bullet_points"
+          points:
+            - "Questions"
+            - "Feedback"
+            - "Next Steps"
