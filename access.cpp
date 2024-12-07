@@ -4,7 +4,7 @@
 
 using namespace std;
 
-// Function to execute SQL commands
+
 static int callback(void* data, int argc, char** argv, char** azColName) {
     for (int i = 0; i < argc; i++) {
         cout << (azColName[i] ? azColName[i] : "NULL") << " = " << (argv[i] ? argv[i] : "NULL") << endl;
